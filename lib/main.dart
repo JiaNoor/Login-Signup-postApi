@@ -1,4 +1,4 @@
-import 'package:api_pract/posts_screen.dart';
+import 'package:api_pract/screens/Login_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.lime,
       ),
-      home: PostScreen(),
+      home: LoginScreen(),
     );
   }
 }
